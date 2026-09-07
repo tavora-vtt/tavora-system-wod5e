@@ -1,0 +1,19 @@
+{
+  "name": "@tavora/system-wod5e",
+  "version": "0.0.0",
+  "description": "World of Darkness 5e game system for Tavora VTT",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavora-vtt/tavora-system-wod5e.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

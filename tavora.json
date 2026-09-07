@@ -1,0 +1,27 @@
+{
+  "id": "wod5e",
+  "type": "system",
+  "version": "0.0.0",
+  "title": {
+    "en": "World of Darkness 5th Edition",
+    "de": "World of Darkness 5. Edition"
+  },
+  "license": "MIT",
+  "engine": {
+    "min": "0.1.0"
+  },
+  "sdk": "^0.0.0",
+  "entry": {
+    "client": "dist/client.js"
+  },
+  "capabilities": [
+    "documents:read:actor",
+    "documents:write:actor",
+    "documents:read:item",
+    "documents:write:item",
+    "chat:post",
+    "dice:roll",
+    "ui:sheets"
+  ],
+  "contributes": {}
+}
