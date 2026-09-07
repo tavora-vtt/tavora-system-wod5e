@@ -10,6 +10,9 @@ noticing. CI builds it in a container with no access to the other checkouts.
 
 Design: [concept doc 07](https://github.com/tavora-vtt/tavora-docs/blob/main/concept/07-game-systems.md).
 
+> Links to `tavora-docs` point at a repository that is currently private, so they resolve
+> only for members of the organisation. The design rationale will open up with it.
+
 ## Content and licensing
 
 The package ships rules automation, sheets and dice. Bundled content is a separate question
